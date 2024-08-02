@@ -14,3 +14,6 @@ public class BoxMain1 {
         System.out.println("str = " + str);
     }
 }
+
+// 각각의 타입별로 IntergerBox, StringBox와 같은 클래스를 모두 정의
+// 코드 재사용은 떨어지지만 타입 안전성은 높음
