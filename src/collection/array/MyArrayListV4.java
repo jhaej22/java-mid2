@@ -26,6 +26,8 @@ public class MyArrayListV4<E> {
         return size;
     }
 
+    // 코드 추가
+
     public void add(E e) {
         if (size == elementData.length) {
             grow();
@@ -33,8 +35,6 @@ public class MyArrayListV4<E> {
         elementData[size] = e;
         size++;
     }
-
-    // 코드 추가
     public void add(int index, E e) {
 
         if (size == elementData.length) {
