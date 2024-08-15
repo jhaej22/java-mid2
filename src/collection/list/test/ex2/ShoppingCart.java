@@ -13,8 +13,8 @@ public class ShoppingCart {
 
     public void displayItems() {
         System.out.println("장바구니 상품 출력");
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println("상품명: " + list.get(i).getName() + ", 합계: " + list.get(i).totalPrice());
+        for (Item item : list) {
+            System.out.println("상품명: " + item.getName() + ", 합계: " + item.totalPrice());
         }
         System.out.println("전체 가격 합: " + calculateTotalPrice() );
     }
