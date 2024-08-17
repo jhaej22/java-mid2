@@ -10,7 +10,7 @@ public class MyHastSetV0 {
     public boolean add(int value) {
         if (contains(value)) {
             return false;
-        }
+        } // 셋에 중복 데이터가 있는지 전체 데이터를 항상 확인해야 함
 
         elementData[size] = value;
         size++;
